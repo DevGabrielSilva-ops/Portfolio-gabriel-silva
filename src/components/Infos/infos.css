@@ -1,0 +1,35 @@
+.layout-inf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 2rem;
+}
+#title{
+    color: #fff;
+}
+
+#name{
+    color: #652d99;
+}
+
+.infos{
+    font-size: 1.25rem;
+}
+
+.infos h2{
+   margin: 0;
+   padding: 0;
+   font-size: 3rem;
+}
+
+.infos p{
+    color: rgb(156, 149, 149);
+    font-size: 1rem;
+}
+
+.layout-inf img{
+    width: 20rem;
+    border-radius: 80rem;
+    margin-top: 1rem;
+}

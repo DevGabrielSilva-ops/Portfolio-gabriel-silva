@@ -1,0 +1,37 @@
+header{
+    color: #fff;
+    padding: 1rem;
+}
+
+.hd-inf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.hd-inf button{
+    background-color: blueviolet;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.hd-inf img{
+    width: 3rem;
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid #652d99;
+    margin-top: 0.5rem;
+}
+
+.hd-inf button:hover{
+    background-color: #652d99;
+    transform: translateY(-2px);
+}
