@@ -32,6 +32,7 @@
     width: 20rem;
     border-radius: 80rem;
     margin-top: 1rem;
+    border: 0.8rem solid #652d99;
 }
 
 #download {
