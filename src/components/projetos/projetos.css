@@ -1,0 +1,13 @@
+.projetos-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projetos-layout h1{
+    color: #fff;
+    font-size: 2rem;
+}
