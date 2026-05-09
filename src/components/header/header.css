@@ -29,6 +29,8 @@ header{
 hr{
     border: 1px solid #652d99;
     margin-top: 0.5rem;
+    width: 100vw;
+
 }
 
 .hd-inf button:hover{

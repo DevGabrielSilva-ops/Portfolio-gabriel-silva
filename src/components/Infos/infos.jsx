@@ -10,6 +10,11 @@ function infos(){
                         <h2 id='name'>Gabriel Silva</h2>
 
                         <p>Desenvolvedor Full-Stack | React | Node.js | MongoDB</p>
+                        <div className='buttons'>
+                            <button id='download'>Download CV</button>
+                            <button id='contato'>Entrar em contato</button>
+                        </div>
+                        
                     </div>
                     
                     <img src="Foto-Perfil.jpg" alt="" />
