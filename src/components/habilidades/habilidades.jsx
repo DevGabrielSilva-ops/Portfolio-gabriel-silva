@@ -4,7 +4,7 @@ import './habilidades.css';
 function Habilidades() {
     return(
         <>
-          <div className="hab-layout">
+          <div id='habilidades' className="hab-layout">
             <h1>Habilidades</h1>
 
             <div className="hab-img-layout">

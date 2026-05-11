@@ -35,6 +35,17 @@
     border: 0.8rem solid #652d99;
 }
 
+.layout-inf a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.layout-inf a:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease  ;
+   
+}
+
 #download {
     background-color: blueviolet;
     border: none;
