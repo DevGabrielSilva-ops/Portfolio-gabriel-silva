@@ -26,11 +26,13 @@
     height: 7rem;
     object-fit: contain;
     border-bottom: 0.2rem solid #652d99;
-
+    
     
 }
 
 .hab-img-layout img:hover {
     transform: scale(1.2);
+    border-bottom: 0.2rem solid #fff;
     transition: all 0.3s ease-in-out;
+   
 }
