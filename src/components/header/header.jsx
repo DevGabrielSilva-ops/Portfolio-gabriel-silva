@@ -19,7 +19,7 @@ function Header() {
 
                     <h2>PORTFOLIO</h2>
 
-                    <button>Tema:</button>
+                    <button></button>
                 </div>
                 <hr />
 

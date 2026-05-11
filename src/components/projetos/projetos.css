@@ -84,3 +84,124 @@
     gap: 2rem;
 }
 
+/* Fundo que cobre a tela toda */
+.modal-overlay {
+  display: none; /* Escondido por padrão */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 50, 50, 0.6); 
+
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Caixa branca do modal */
+.modal-projeto {
+  
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  background-color:rgb(4, 4, 54) ;
+  position: relative;
+  text-align: center;
+  
+  /* EFEITO DE DESLIZAR: Começa acima da tela */
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.modal-projeto p{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: gray;
+}
+
+/* Classe que será adicionada via JS para mostrar o modal */
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-overlay.active .modal-projeto {
+  transform: translateY(0); /* Desliza para a posição original */
+  opacity: 1;
+}
+
+.modal-projeto h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #652d99;
+}
+
+.modal-projeto h3{
+    
+    font-size: 0.8rem;
+    color: #9438ea;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #652d99;
+}
+
+.modal-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.imagem img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-bottom: 0.3rem solid #652d99;
+    margin-top: 1rem;
+    opacity: 1;
+}
+
+.imagem button{
+   
+    background-color: #652d99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    
+}
+
+.imagem button:hover{
+    background-color: transparent;
+    color: #652d99;
+    
+}
+.btn-acesso{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.descricao p{
+    margin: 1rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+    color: gray;
+    text-align: left;
+}
+
+.descricao h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #652d99;
+}
