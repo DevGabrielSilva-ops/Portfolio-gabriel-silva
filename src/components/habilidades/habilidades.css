@@ -1,0 +1,38 @@
+.hab-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 5rem;
+
+
+}
+
+.hab-layout h1{
+    color: #fff;
+}
+
+.hab-img-layout {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.hab-img-layout img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: contain;
+    border-bottom: 0.2rem solid #652d99;
+    
+    
+}
+
+.hab-img-layout img:hover {
+    transform: scale(1.2);
+    border-bottom: 0.2rem solid #fff;
+    transition: all 0.3s ease-in-out;
+   
+}

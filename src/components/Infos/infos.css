@@ -21,6 +21,19 @@
    margin: 0;
    padding: 0;
    font-size: 3rem;
+   width: 22ch;
+   white-space: nowrap;
+   overflow: hidden;
+   animation: typing 2s steps(22),
+   blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+@keyframes blink {
+    50% { border-color: transparent }
 }
 
 .infos p{
@@ -32,6 +45,18 @@
     width: 20rem;
     border-radius: 80rem;
     margin-top: 1rem;
+    border: 0.8rem solid #652d99;
+}
+
+.layout-inf a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.layout-inf a:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease  ;
+   
 }
 
 #download {

@@ -11,13 +11,17 @@ function infos(){
 
                         <p>Desenvolvedor Full-Stack | React | Node.js | MongoDB</p>
                         <div className='buttons'>
-                            <button id='download'>Download CV</button>
-                            <button id='contato'>Entrar em contato</button>
+                            <a href="/Curriculo.pdf" download><button id='download'>Download CV</button></a>
+                           <a href="mailto:dev13.gabriel@gmail.com" target="_blank">
+                                <button id='contato'>Entrar em contato</button>
+                            </a>
                         </div>
                         
                     </div>
                     
-                    <img src="Foto-Perfil.jpg" alt="" />
+                   <a href="https://github.com/DevGabrielSilva-ops" target="_blank">
+                        <img src="Foto-Perfil.jpg" alt="" />
+                    </a>
 
                 </div>
             </section>

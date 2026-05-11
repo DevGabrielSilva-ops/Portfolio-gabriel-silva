@@ -1,0 +1,20 @@
+.sobre-mim h2{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.sobre-mim p{
+    color: rgb(156, 149, 149);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 16rem;
+    margin-right: 16rem; 
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    text-align: center;
+}
