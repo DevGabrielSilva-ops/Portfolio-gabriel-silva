@@ -213,6 +213,34 @@
     }
 
     .modal-projeto {
-        width: 90%;
+        width: 70%;
+        
     }
+
+    .modal-layout{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagem img{
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem button{
+        width: 100%;
+    }
+
+    .modal-projeto p{
+        font-size: 0.8rem;
+    }
+
+     .modal-projeto h2{
+        font-size: 1.5rem;
+    }
+
+     .modal-projeto h3{
+        font-size: 0.7rem;
+}
 }
