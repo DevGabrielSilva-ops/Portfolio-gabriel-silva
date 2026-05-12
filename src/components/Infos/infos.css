@@ -91,3 +91,31 @@
     color: white;
     transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+    .layout-inf{
+        flex-direction: column;
+        text-align: center;
+        font-size:1rem;
+        gap: 2rem;
+    }
+
+    .infos{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infos h2{
+        font-size: 2rem;
+        width: 18ch;
+    }
+
+    .infos p{
+        font-size: 1rem;
+    }
+}

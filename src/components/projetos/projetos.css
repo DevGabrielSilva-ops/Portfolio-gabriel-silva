@@ -205,3 +205,14 @@
     font-size: 2rem;
     color: #652d99;
 }
+
+@media (max-width: 768px) {
+    .projeto-layout{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+
+    .modal-projeto {
+        width: 90%;
+    }
+}

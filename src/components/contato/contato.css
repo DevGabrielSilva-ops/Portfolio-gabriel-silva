@@ -52,4 +52,12 @@
 .inf-contato:hover{
     transform: scale(1.1);
     transition: all 0.3s ease;
+} 
+
+@media (max-width: 768px) {
+    .contato{
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0;
+    }
 }

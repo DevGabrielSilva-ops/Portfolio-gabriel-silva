@@ -36,3 +36,17 @@
     transition: all 0.3s ease-in-out;
    
 }
+
+@media (max-width: 768px) {
+    .hab-img-layout {
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hab-img-layout img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
